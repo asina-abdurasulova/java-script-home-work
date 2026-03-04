@@ -1,0 +1,12 @@
+let name = prompt("Введите свое имя");
+let surname = prompt("Введите вашу фамилию");
+let age = prompt("Введите ваш возраст");
+let heightHuman = prompt("Введите ваш рост в см");
+let gender = prompt("Введите пол: жен/муж");
+let weightHuman = prompt("Введите ваш вес в кг");
+console.log(`Привет, ${name}`);
+console.log(`${surname}`);
+console.log(`Вам ${age} лет`);
+console.log(`Ваш рост: ${heightHuman} `);
+console.log(`Ваш пол: ${gender}`);
+console.log(`Ваш вес: ${weightHuman}`);
